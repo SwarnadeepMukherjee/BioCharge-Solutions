@@ -3,38 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Description</title>
+    <link rel="stylesheet" href="/BioCharge-Solutions/css/index-content.css">
+    <link rel="stylesheet" href="/BioCharge-Solutions/css/nav.css">
+    <link rel="icon" href="/BioCharge-Solutions/images/logo-transparent.png">
+    <title>BioCharger</title>
     <style>
         body {
-            background-color: #e0f7fa;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            background-color: #ffffcc;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            display: inline-block;
+            border: 2px solid #000;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .image-container {
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
+            margin-bottom: 20px;
         }
-        .textbox {
-            background-color: #ffffff;
-            border: 1px solid #000;
-            padding: 20px;
-            width: 50%;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #000;
         }
-        @media (max-width: 768px) {
-            .textbox {
-                width: 90%;
-            }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #555;
         }
     </style>
 </head>
 <body>
-    <div class="textbox">
-        <img src="/BioCharge-Solutions/images/bioharger.png" alt="biocharger-image">
-        <p>BioCharger</p>
+    <div class="container">
+        <div class="image-container">
+            <img src="/BioCharge-Solutions/images/biocharger.png" alt="BioCharger-image">
+        </div>
+        <div class="title">BioCharger</div>
+        <div class="subtitle">Generates electricity from soil</div>
     </div>
 </body>
 </html>
