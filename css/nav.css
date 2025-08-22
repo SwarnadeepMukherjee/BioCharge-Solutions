@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    background-color: #ff875b;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin: 20px 10px;
+}
+
+header nav ul li{
+    font-size: 10px;
+    padding: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+}
+header nav ul li a:hover{
+    color: whitesmoke;
+}
+
+header nav ul a img{
+    width: 80px;
+    border-radius: 100px;
+}
+
+header nav ul a{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    *{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 1px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    header nav ul li a{
+        padding: 2px;
+        font-size: 20px;
+    }
+    header nav ul a{
+        padding-right: 0;
+    }
+    header nav ul li{
+       padding: 0;
+    }
+    header nav ul a img{
+        width: 60px;
+    }
+}

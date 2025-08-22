@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 214, 152);
+}
+
+body div {
+    margin: 0 35vh;
+}
+
+body div img {
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 15px;
+}
+
+body div p {
+    margin: 8px;
+    font-family: 'Nunito', Times, serif;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#pc-note{
+    border: 1px solid black;
+}
+
+#pc-note p a{
+    font-size: 25px;
+}
+
+/* Media query for devices with a max width of 768px */
+@media (max-width: 768px) {
+    body div {
+        margin: 0 5vh;
+    }
+
+    body div img {
+        width: 100%;
+    }
+
+    body div p {
+        font-size: 18px;
+    }
+}
